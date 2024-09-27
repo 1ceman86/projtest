@@ -1,5 +1,5 @@
 import React from 'react';
-// import { FaSearchPlus } from "react-icons/fa";
+import { FaSearchPlus } from "react-icons/fa";
 
 export default function Header() {
     return (
@@ -16,10 +16,10 @@ export default function Header() {
                 {/* <!-- LEFT SIDE :END --> */}
 
                 {/* <!-- RIGHT SIDE :START --> */}
-                {/* <div>
+                <div>
                     <i className="fa fa-search"></i>
                     <FaSearchPlus size={20} />                    
-                </div> */}
+                </div>
                 {/* <!-- RIGHT SIDE :END --> */}
             </nav>
         </header>
